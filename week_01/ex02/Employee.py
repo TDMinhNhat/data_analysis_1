@@ -1,6 +1,6 @@
 class Employee:
 
-    def __init(self, code, name, age, salary):
+    def __init__(self, code, name, age, salary):
         self.code = code
         self.name = name
         self.age = age
@@ -22,4 +22,5 @@ class Employee:
         else:
             self.salary -= amount
 
-    
+    def display(self):
+        print(f"Code: {self.code}, Name: {self.name}, Age: {self.age}, Salary: {self.salary}")
